@@ -11,6 +11,7 @@ int main(){
 
     std::cout<<"Player 2 enter your name: ";
     std::cin>>name2;
+    
     while(true){
         
         std::string collection[9] = {" "," "," "," "," "," "," "," "," "};
