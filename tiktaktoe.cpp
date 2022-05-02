@@ -278,11 +278,11 @@ int main(){
             }
         }
        
-        std::string yn;
+        char yn;
         std::cout<<"Press C for continue and Press any key for Exit: "; 
         std::cin>>yn;
 
-        if(yn=="c" || yn=="C"){
+        if(yn=='c' || yn=='C'){
             continue;
         }
         else{
